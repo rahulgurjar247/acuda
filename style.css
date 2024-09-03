@@ -1,0 +1,37 @@
+/* base rule  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+} 
+/* color */
+:root{
+  --main-color :#0866C0;
+  --sub-main-color:#3d3c3c;
+  --white-color:#ffffff;
+  --yellow-color:#f1aa00;
+  --blue-color:#007bff;
+}
+
+/* grid */
+.grid{
+  display: grid;
+}
+.grid-two--cols{
+  grid-template-columns:repeat(2,1fr);
+}
+
+.grid-three--cols{
+  grid-template-columns: repeat(3,1fr);
+}
+.grid-four--cols{
+  grid-template-columns: repeat(4,1fr);
+}
+
+/* html */
+
+html{
+  font-size:62.5%;
+  /* 1rem=10px */
+}
